@@ -1,22 +1,29 @@
 .todo-app {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 /** add todo **/
 .add-todo {
-    margin-left: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 /** todo list **/
 .todo-list {
-    margin-top: 1rem;
-    text-align: left;
-    list-style: none;
+  margin-top: 1rem;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /** todo item **/
 .todo-item {
-    font-family: monospace;
-    cursor: pointer;
-    line-height: 1.5;
+  font-family: monospace;
+  cursor: pointer;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 300px;
 }
