@@ -1,8 +1,12 @@
 const todoService = (repository) => {
   return {
     getTodos: async () => {
-      return await repository.getTodos()
-    }
+      return await repository.getTodos();
+    },
+    // add postTodo
+    postTodo: async (todoData) => {
+      return await repository.postTodo(todoData);
+    },
   };
 };
 
